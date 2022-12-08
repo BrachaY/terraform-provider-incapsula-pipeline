@@ -23,8 +23,8 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      IMPERVA_API_KEY: ${{ secrets.IMPERVA_API_KEY }}
-      IMPERVA_API_ID: ${{ secrets.IMPERVA_API_ID }}
+      IMPERVA_API_KEY: '${{ secrets.IMPERVA_API_KEY }}'
+      IMPERVA_API_ID: '${{ secrets.IMPERVA_API_ID }}'
       TESTING_PROFILE: true
       
     steps:
